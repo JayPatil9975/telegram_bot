@@ -22,7 +22,7 @@ std::string convertImageToPdf(const std::string& imagePath, const std::string& p
 }
 
 int main() {
-    std::string token = "YOUR_BOT_TOKEN";
+    std::string token = "6275349961:AAEGjMYxtmxvELGnIYmzCInhiS2yK2_fG28";
     TgBot::Bot bot(token);
 
     bot.getEvents().onCommand("convert", [&bot](TgBot::Message::Ptr message) {
